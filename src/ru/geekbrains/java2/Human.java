@@ -23,4 +23,12 @@ public class Human implements Runable, Jumpable {
         this.maxHeight = maxHeight;
         this.maxLength = maxLength;
     }
+
+    public int getMaxLength() {
+        return maxLength;
+    }
+
+    public int getMaxHeight() {
+        return maxHeight;
+    }
 }

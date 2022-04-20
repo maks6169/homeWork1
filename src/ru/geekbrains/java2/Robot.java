@@ -23,4 +23,12 @@ public class Robot implements Runable, Jumpable {
         this.maxHeight = maxHeight;
         this.maxLength = maxLength;
     }
+
+    public int getMaxHeight() {
+        return maxHeight;
+    }
+
+    public int getMaxLength() {
+        return maxLength;
+    }
 }
