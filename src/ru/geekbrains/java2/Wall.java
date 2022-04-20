@@ -6,7 +6,12 @@ public class Wall {
     public int getWallHeight() {
         return wallHeight;
     }
+
     public void setWallHeight(int wallHeight) {
+        this.wallHeight = wallHeight;
+    }
+
+    public Wall(int wallHeight) {
         this.wallHeight = wallHeight;
     }
 }
