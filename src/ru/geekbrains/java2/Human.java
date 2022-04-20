@@ -11,7 +11,6 @@ public class Human implements Runable, Jumpable {
     }
 
     public void jump(Wall wall) {
-
         if (maxHeight >= wall.getWallHeight()) {
             System.out.printf("Human %s jump on %d meters\n", name, maxHeight);
         } else System.out.printf("Human %s cant jump on %d meters\n", name, wall.getWallHeight());

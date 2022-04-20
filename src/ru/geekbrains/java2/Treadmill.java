@@ -6,7 +6,6 @@ public class Treadmill {
     public int getTreadmillDistance() {
         return treadmillDistance;
     }
-
     public void setTreadmillDistance(int treadmillDistance) {
         this.treadmillDistance = treadmillDistance;
     }

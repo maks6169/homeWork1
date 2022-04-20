@@ -10,6 +10,7 @@ public class Main {
         Human human = new Human("Jonh",6,5768);
         human.jump(wall);
         human.run(treadmill);
+        human.run(treadmill);
 
     }
 }
