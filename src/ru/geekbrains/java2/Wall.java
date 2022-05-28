@@ -10,4 +10,8 @@ public class Wall {
     public void setWallHeight(int wallHeight) {
         this.wallHeight = wallHeight;
     }
+
+    public Wall(int wallHeight) {
+        this.wallHeight = wallHeight;
+    }
 }
